@@ -1,0 +1,434 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0px;
+    overflow-y: scroll;
+
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #888;
+}
+
+body::-webkit-scrollbar{
+    width: 5.5px;
+}
+
+nav{
+    text-align: end;
+    font-size: 1.6rem;
+    margin: 0px;
+    padding-top: 3px;
+    width: 100%;
+    height: 60px;
+    padding-right: 8px;
+
+
+
+}
+nav a{
+    position: relative;
+    right: 45px;
+    top: 15px;
+    padding-top: 0px;
+    text-decoration: none;
+    color: #4e3a3a;
+    margin: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+    color: #f57b65;
+}
+
+nav a::after{
+    content: " |";
+}
+
+
+nav a:nth-child(3)::after{
+    content: "";
+}
+
+
+#dropdown{
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    right: 45px;
+    background: none;
+
+}
+
+
+#buttonsInsideDropdown{
+    width: 30px;
+    height: 55px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    position: absolute;
+    right: 0px;
+
+}
+
+
+.hidden{
+    display: none;
+}
+
+.buttonsInside, #dropdown{
+    border: 0px;
+    background: none;
+}
+
+button:focus{
+    outline: none;
+}
+
+
+.parent_container{
+    max-height: 700px ;
+}
+
+.wave{
+    position: absolute;
+    height: 289px;
+    z-index: -1;
+    width: 1351px;
+}
+
+.main_container{
+    display: inline-block;
+    padding: 90px 25px;
+    margin: 10px 50px;
+    width: 600px;
+    height: 550px;
+
+}
+
+
+.text_container #main-h1{
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    color: #fa755c;
+    font-size: 4.5rem;
+}
+.text_container #main-p{
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    color: #395a6c;
+    font-size: 2.5rem;
+    margin: 2px 0 0 0;
+}
+
+.separate{
+  position: relative;
+  border: 2px solid #fbbc9c;
+  border-radius: 2px;
+  height: 1px;
+  width: 90px;
+  margin: 20px 0;
+  background:#fbbc9c ;
+}
+
+#second-p{
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    color: #395a6c;
+}
+
+.buttonsInside button{
+    position: relative;
+    left: 8%;
+    display: inline-block;
+    margin: auto;
+    width: 35%;
+    padding: 8px;
+    border: 2px solid #fbbc9c;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: .5s all;
+   
+}
+
+.buttonsInside button:hover{
+    transform: scale(1.05);
+}
+
+#button1{
+    color: white;
+    border: none;
+    background: #acbcc0 ;
+}
+#button2{
+    background: transparent ;
+}
+
+.sn_container{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 5px solid green; */
+    height: 80px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.snText{
+    display: inline;
+    font-size: 3.8rem;
+    color: #395a6c;
+    font-family: 'Nunito', sans-serif;
+}
+
+.snText::before{
+    display: inline;
+    content: "|";
+    width: 10px;
+    height: 30px;
+    background-color: #db5a4d ;
+    color: #db5a4d;
+    margin: 15px;
+    margin-left: 80px;
+}
+
+.cards_container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+}
+
+.card{
+    box-shadow: 0px 0px 20px 4px rgb(219, 214, 214);
+    border-radius: 15px ;
+    display: inline-block;
+    width: 230px;
+    height: 310px;
+    margin: 15px 23px;
+    transition: .5s all;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+#card1, #card2, #card3{
+    text-align: center;
+    padding: 30px;
+
+}
+#card1{
+    border-top: 7px solid rgb(232,144,236);
+}
+#card2{
+    border-top: 7px solid rgb(86,80,87);
+}
+#card3{
+    border-top: 7px solid rgb(97,174,196);
+}
+
+.inside{
+    height: 75px;
+}
+
+.textInside{
+    padding: 0.5px 4px;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+
+}
+
+.titleText{
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#instagramText{
+    color: rgb(173, 100, 173);
+}
+#githubText {
+    color: rgb(105, 101, 101);
+}
+#twitterText{
+    color: skyblue;
+}
+
+.cardButton{
+    border-radius: 15px;
+    padding: 4px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.instagramImage , .githubImage , .twitterImage{
+    height: 80px;
+    width: 80px;
+}
+
+.textInside button{
+    position: relative;
+    left: 8%;
+}
+
+.textInside #instagramButton{
+    background: rgb(232,144,236);
+    background: linear-gradient(90deg, rgba(232,144,236,1) 14%, rgba(191,55,170,1) 91%);
+
+}
+.textInside #githubButton{
+    background: rgb(141,157,162);
+    background: linear-gradient(90deg, rgba(141,157,162,1) 14%, rgba(101,109,119,1) 91%);
+}
+.textInside #twitterButton{
+    background: rgb(158,209,224);
+    background: linear-gradient(90deg, rgba(158,209,224,1) 14%, rgba(119,166,226,1) 91%);
+}
+
+.navbarImage{
+    position: relative;
+    width: 135px;
+    height: 50px;
+    float: left;
+    padding: 5px;
+    left: 50px;
+
+}
+
+
+.homepageImage{
+    float: right;
+    position: relative;
+    height: 550px;
+    width: 550px;
+    right: 50px;
+}
+
+/* Cards style color
+
+#boxInside1, #boxInside2, #boxInside3, #boxInside4{
+    position: relative;
+    background-color: #BBA8E0;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#boxInside1{
+    background-color: #75FFB8;
+}
+#boxInside2{
+    background-color: #FF9FC1;
+}
+#boxInside3{
+    background-color: #D9DA73;
+}
+
+#boxInside4{
+    background-color: #8EBCFF;
+} */
+
+
+
+/* Shira's animation */
+
+/* img{
+    height: 100%;
+    width: 100%;
+}
+
+:root{
+    --cake-blue: #9BDFC3;
+    --cake-pink: #D2B1DE;
+    --cake-brown: #DEC285;
+}
+
+.shira-container{
+    position: relative;
+    height: 100px;
+    z-index: 1;
+}
+
+.shiraimg{
+    z-index: 10;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--cake-blue);
+    box-shadow: 0px 0px 10px 5px var(--cake-blue);
+
+    animation: movementX 6s ease-in infinite,
+        movementY 3s ease-in infinite,
+        color 6s ease-in infinite; */
+    /**position**/
+    /* top: 20px;
+    left: -60px;
+}
+
+@keyframes movementX {
+    from{
+        top: 20px;
+        left: -60px;
+    }
+
+    to{
+        left: 100vw;
+    }
+}
+@keyframes movementY {
+    0%{
+        top: 5px;
+    }
+
+    50%{
+        top: 50px;
+    }
+
+    100%{
+        top: 5px;
+    }
+}
+
+@keyframes color {
+    0%{
+        border: 2px solid var(--cake-blue);
+        box-shadow: 0px 0px 10px 5px var(--cake-blue);
+    }
+
+    50%{
+        border: 2px solid var(--cake-pink);
+        box-shadow: 0px 0px 10px 5px var(--cake-pink);
+    }
+
+    100%{
+        border: 2px solid var(--cake-brown);
+        box-shadow: 0px 0px 10px 5px var(--cake-brown);
+    }
+}  */

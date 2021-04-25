@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    justify-self: flex-end;
+    font-size: 1.5rem;
+}
+
+main .registerForm{
+    text-align: center;
+    height: 560px;
+    width: 400px;
+    padding: 30px;
+    float: right;
+    margin-top: 0.5%;
+    margin-right: 15%;
+    border-radius: 25px;
+    /* border: 0; */
+
+}
+
+h1 {
+    color: #040f09;
+    margin: 10px 10px;
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    border-radius: 0px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: #10242c;
+    width: 250px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+nav{
+    text-align: end;
+    font-size: 1.8rem;
+    margin: 0px;
+    padding-top: 3px;
+    width: 100%;
+    height: 60px;
+    padding-right: 8px;
+    position: relative;
+}
+
+nav a{
+    position: relative;
+    right: 20px;
+    top: 15px;
+    padding-top: 0px;
+    text-decoration: none;
+    color: #4e3a3a;
+    margin: 5px;
+    font-size: 2.8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+    color: #2a776e;
+}
+
+
+.userIcon,
+.passwordIcon, .emailIcon{
+    color: #04645c;
+
+}
+.text1-container, .text2-container{
+    text-align: start;
+    font-size: 1.8rem;
+    margin-bottom: 7px;
+}
+.text-name, .text-email, .text-password, .text-confirmpassword{
+    margin: 15px;
+    width: 260px;
+}
+
+.register-container{
+    width: 320px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #245454;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5%;
+}
+.name,.email, .password, .confirmpassword{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    width: 100%;
+    height: 35px;
+    border: 2px solid #749c9c;
+    border-radius: 15px;
+    justify-self: flex-end;
+    padding: 0 10px;
+
+}
+
+
+.recoveryPassword{
+    margin-top: 18px;
+    text-align: end;
+    padding-inline-end: 45px;
+}
+
+.login a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 1.5rem; 
+    text-decoration: none;
+}
+.send{
+    display: inline;
+    padding: 10px 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+
+.registerImage{
+    position: absolute;
+    width: 750px;
+    height: 100vh;
+}
+
+
+.mobileImage{
+    display: none;
+}
