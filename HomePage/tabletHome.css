@@ -51,15 +51,16 @@
 
     .cards_container{
         width: 90%;
+    
     }
     .card{
-        width: 350px;
+        width: 290px;
         height: 130px;
         text-align: start;
     }
     #card1, #card2, #card3{
         text-align: initial;
-        padding: 3%;
+        padding: 2%;
     }
     .inside{
         height: 0;
@@ -67,7 +68,7 @@
     .instagramImage , .githubImage , .twitterImage{
         height: 80px;
         width: 80px;
-        padding: 1px;
+        padding: 0;
     }
     .titleText{
         text-align: center;
@@ -79,7 +80,7 @@
     padding-left: 78px;
     text-align: right;
     font-size: 1.4rem;
-    width: 290px;
+    width: 256px;
     }
 
     .textInside #mainText{
@@ -87,7 +88,7 @@
     }
 
     .cardButton{
-        margin-top: 0;
+        margin-top: 10px;
         padding: 2px;
         margin-right: 8px;
         width: 50%;
