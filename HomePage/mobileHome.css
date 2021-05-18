@@ -1,7 +1,6 @@
 @media (max-width: 749px){
     #parent_container{
         margin: 0 auto;
-        width: 450px;
         padding: 10px;
     }
     .main_container{
