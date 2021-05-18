@@ -1,12 +1,13 @@
 @media (max-width: 749px){
     #parent_container{
+        width: 430px;
         margin: 0 auto;
         padding: 10px;
     }
     .main_container{
-        padding: 10px 40px;
+        padding: 10px 35px;
         margin: 0 auto;
-        width: 450px;
+        width: 420px;
         height: 450px;
     }
 
@@ -28,7 +29,7 @@
     }
     .buttonsInside button{
         position: initial;
-        width: 155px;
+        width: 142px;
         font-size: 1.4rem;
     }
     .sn_container{
