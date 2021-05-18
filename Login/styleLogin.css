@@ -156,6 +156,7 @@ nav a:hover{
     position: absolute;
     width: 750px;
     height: 100vh;
+    z-index: -1;
 }
 
 .mobileImage{

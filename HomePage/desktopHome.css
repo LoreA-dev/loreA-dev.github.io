@@ -30,18 +30,13 @@ nav{
     text-align: end;
     font-size: 1.6rem;
     margin: 0px;
-    padding-top: 3px;
+    padding-top: 15px;
     width: 100%;
     height: 60px;
-    padding-right: 8px;
-
-
 
 }
 nav a{
     position: relative;
-    right: 45px;
-    top: 15px;
     padding-top: 0px;
     text-decoration: none;
     color: #4e3a3a;
@@ -66,10 +61,9 @@ nav a:nth-child(3)::after{
 #dropdown{
     cursor: pointer;
     position: relative;
-    top: 15px;
-    right: 45px;
     background: none;
-
+    margin-right: 18px;
+    font-size: 1.7rem;
 }
 
 
@@ -82,7 +76,6 @@ nav a:nth-child(3)::after{
     right: 0px;
 
 }
-
 
 .hidden{
     display: none;
@@ -97,21 +90,16 @@ button:focus{
     outline: none;
 }
 
-
-.parent_container{
-    max-height: 700px ;
-}
-
 .wave{
     position: absolute;
-    height: 289px;
     z-index: -1;
-    width: 1351px;
+    height: 580px; 
+    width: 100%;
 }
 
 .main_container{
     display: inline-block;
-    padding: 90px 25px;
+    padding: 80px 25px;
     margin: 10px 50px;
     width: 600px;
     height: 550px;
@@ -311,12 +299,10 @@ button:focus{
 }
 
 .navbarImage{
-    position: relative;
-    width: 135px;
-    height: 50px;
+    width: 120px;
+    height: 40px;
     float: left;
-    padding: 5px;
-    left: 50px;
+    margin: 0 30px;
 
 }
 
@@ -324,11 +310,29 @@ button:focus{
 .homepageImage{
     float: right;
     position: relative;
-    height: 550px;
-    width: 550px;
+    height: 500px;
+    width: 500px;
     right: 50px;
 }
+.circleDecoration{
+    display: none;
+}
 
+@media (max-width: 1199px){
+    .homepageImage{
+        height: 420px;
+        width: 420px;
+    }
+    .main_container{
+        margin: 10px 20px;
+    }
+    .text_container #main-h1{
+        font-size: 4rem;
+    }
+    .text_container #main-p{
+        font-size: 2rem;
+    }
+}
 /* Cards style color
 
 #boxInside1, #boxInside2, #boxInside3, #boxInside4{
