@@ -1,16 +1,8 @@
 /* .Clase
     #Id */
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
-html{
-    font-size: 62.5%;
-}
 
-body{
+#mainContainer{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -59,30 +51,28 @@ input[type=submit] {
     cursor: pointer;
   }
 
-nav{
+nav {
     text-align: end;
     font-size: 1.8rem;
     margin: 0px;
     padding-top: 3px;
     width: 100%;
-    height: 60px;
+    height: 45px;
     padding-right: 8px;
     position: relative;
 }
 
-nav a{
+nav a.navLogin{
     position: relative;
     right: 20px;
-    top: 15px;
     padding-top: 0px;
     text-decoration: none;
     color: #4e3a3a;
-    margin: 5px;
+    margin: 4px 5px;
     font-size: 2.8rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
-nav a:hover{
+nav a.navLogin:hover{
     color: #2a776e;
 }
 
