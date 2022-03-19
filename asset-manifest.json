@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/loreA-dev.github.io/static/css/main.2831d619.css",
+    "main.js": "/loreA-dev.github.io/static/js/main.b8832a6c.js",
+    "static/js/787.00a12fb5.chunk.js": "/loreA-dev.github.io/static/js/787.00a12fb5.chunk.js",
+    "index.html": "/loreA-dev.github.io/index.html",
+    "main.2831d619.css.map": "/loreA-dev.github.io/static/css/main.2831d619.css.map",
+    "main.b8832a6c.js.map": "/loreA-dev.github.io/static/js/main.b8832a6c.js.map",
+    "787.00a12fb5.chunk.js.map": "/loreA-dev.github.io/static/js/787.00a12fb5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2831d619.css",
+    "static/js/main.b8832a6c.js"
+  ]
+}
